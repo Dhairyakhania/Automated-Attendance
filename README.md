@@ -6,7 +6,7 @@
   <!-- <a href="https://face_recognition.netlify.app">Demo</a> -->
 </div>
 
-<h1 align="center">Face_recognition</h1>
+<h1 align="center">Automated Attendance System</h1>
 
 <p align="center">
   <img alt="Github top language" src="https://img.shields.io/github/languages/top/{{YOUR_GITHUB_USERNAME}}/face_recognition?color=56BEB8">
@@ -46,23 +46,24 @@
 
 ## :dart: About ##
 
-Describe your project
+The **Automated Attendance System** is a Python-based application using facial recognition to mark attendance automatically. The system captures faces, stores their embeddings, and matches them in real-time for attendance tracking. The application utilizes OpenCV, Flask, and the `face_recognition` library to detect and recognize faces, and logs attendance to a CSV file.
 
 ## :sparkles: Features ##
 
-:heavy_check_mark: Feature 1;\
-:heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3;
+- **Face Detection & Recognition**: Automatically detects and recognizes faces in real-time using the webcam.
+- **Attendance Logging**: Logs the recognized attendance to a CSV file with timestamp.
+- **Web Interface**: Flask-based web interface for registering and marking attendance.
+- **Real-time Video Feed**: Displays live video feed for face detection.
 
 ## :rocket: Technologies ##
 
 The following tools were used in this project:
 
-- [Expo](https://expo.io/)
-- [Node.js](https://nodejs.org/en/)
-- [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
+- Python 3.x
+- OpenCV
+- Flask
+- `face_recognition` library
+- Numpy 1.2.x
 
 ## :white_check_mark: Requirements ##
 
