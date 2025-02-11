@@ -8,22 +8,6 @@
 
 <h1 align="center">Automated Attendance System</h1>
 
-<p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/{{YOUR_GITHUB_USERNAME}}/face_recognition?color=56BEB8">
-
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/{{YOUR_GITHUB_USERNAME}}/face_recognition?color=56BEB8">
-
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/{{YOUR_GITHUB_USERNAME}}/face_recognition?color=56BEB8">
-
-  <img alt="License" src="https://img.shields.io/github/license/{{YOUR_GITHUB_USERNAME}}/face_recognition?color=56BEB8">
-
-  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/{{YOUR_GITHUB_USERNAME}}/face_recognition?color=56BEB8" /> -->
-
-  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/{{YOUR_GITHUB_USERNAME}}/face_recognition?color=56BEB8" /> -->
-
-  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/{{YOUR_GITHUB_USERNAME}}/face_recognition?color=56BEB8" /> -->
-</p>
-
 <!-- Status -->
 
 <!-- <h4 align="center"> 
@@ -55,6 +39,26 @@ The **Automated Attendance System** is a Python-based application using facial r
 - **Web Interface**: Flask-based web interface for registering and marking attendance.
 - **Real-time Video Feed**: Displays live video feed for face detection.
 
+## Screenshots
+
+### 3.**Home Page**
+This is the landing page of the application. It gives the option to navigate to either the register page or the mark attendance page.
+
+![Home Page]("C:\Users\DHAIRYA\Downloads\attendence_home.png")
+
+### 2. **Register Page**
+This is the page where users can register their face for attendance recognition. After clicking "Submit", the system captures the user's face.
+
+![Register Page](path_to_screenshot/register_page.png)
+
+### 3. **Mark Attendance Page**
+This page allows users to mark their attendance by detecting faces in real-time from the webcam.
+
+![Mark Attendance Page](path_to_screenshot/mark_attendance_page.png)
+
+### 4. **Attendance Log**
+After faces are detected and recognized, the system logs the attendance along with the timestamp.
+
 ## :rocket: Technologies ##
 
 The following tools were used in this project:
@@ -62,27 +66,27 @@ The following tools were used in this project:
 - Python 3.x
 - OpenCV
 - Flask
-- `face_recognition` library
+- [face_recognition](https://pypi.org/project/face-recognition/) library
 - Numpy 1.2.x
 
 ## :white_check_mark: Requirements ##
 
-Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
+Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and Python installed.
 
 ## :checkered_flag: Starting ##
 
 ```bash
 # Clone this project
-$ git clone https://github.com/{{YOUR_GITHUB_USERNAME}}/face_recognition
+$ git clone https://github.com/Dhairyakhania/Automated-Attendance.git
 
 # Access
-$ cd face_recognition
+$ cd Automated-Attendance
 
 # Install dependencies
-$ yarn
+$ pip install -r requirements.txt
 
 # Run the project
-$ yarn start
+$ python app.py
 
 # The server will initialize in the <http://localhost:3000>
 ```
@@ -92,7 +96,7 @@ $ yarn start
 This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
 
 
-Made with :heart: by <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">{{YOUR_NAME}}</a>
+Made with :heart: by <a href="https://github.com/Dhairyakhania" target="_blank">{{Dhairya Khania}}</a>
 
 &#xa0;
 
