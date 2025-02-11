@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mark Attendance</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/attendance.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Mark Attendance</h1>
+        <script>console.log(video_feed_url)</script>
+        <div class="video-container">
+            <script>console.log(video_feed_url)</script>
+            <img src="{{ video_feed_url }}" width="640" height="480" id="video-feed" alt="Video Feed">
+        </div>
+        <div id="status">
+            <p>Attendance will be marked automatically when your face is detected.</p>
+        </div>
+        <a href="/">Back to Home</a>
+    </div>
+
+    <script>
+        // Show a success message after attendance is marked (if applicable)
+        function showAttendanceSuccess() {
+            document.getElementById('status').innerHTML = '<p>Your attendance has been marked successfully!</p>';
+        }
+    </script>
+</body>
+</html>
