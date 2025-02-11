@@ -44,17 +44,17 @@ The **Automated Attendance System** is a Python-based application using facial r
 ### 3.**Home Page**
 This is the landing page of the application. It gives the option to navigate to either the register page or the mark attendance page.
 
-![Home Page]("C:\Users\DHAIRYA\Downloads\attendence_home.png")
+![Home Page](images/attendence_home.png)
 
 ### 2. **Register Page**
-This is the page where users can register their face for attendance recognition. After clicking "Submit", the system captures the user's face.
+This is the page where users can register their face for attendance recognition. After clicking "Submit", the system captures the user's face. New window will pop-up press 's' to capture the picture and to exit the window click 'q'.
 
-![Register Page](path_to_screenshot/register_page.png)
+![Register Page](images/Register.png)
 
 ### 3. **Mark Attendance Page**
-This page allows users to mark their attendance by detecting faces in real-time from the webcam.
+This page allows users to mark their attendance by detecting faces in real-time from the webcam. New window will pop-up to exit the window click 'q'.
 
-![Mark Attendance Page](path_to_screenshot/mark_attendance_page.png)
+![Mark Attendance Page](images/Mark_Attendance.png)
 
 ### 4. **Attendance Log**
 After faces are detected and recognized, the system logs the attendance along with the timestamp.
